@@ -1,0 +1,9 @@
+# valor raio
+raio = float(input("O raio da circunferência é: "))
+if raio <= 0:
+    print("O raio deve ser um número positivo.")
+    # resultado da variável
+else: 
+    area = 3.14159 * (raio ** 2)
+# '' consola
+print("A área da circunferência é: ", area)
