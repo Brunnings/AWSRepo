@@ -1,0 +1,10 @@
+# Preço dos 3 produtos que quer comprar
+preco1 = abs(float(input("Qual o preço do primeiro produto? ")))
+preco2 = abs(float(input("Qual o preço do segundo produto? ")))
+preco3 = abs(float(input("Qual o preço do terceiro produto? ")))
+# total a ser pago
+somaPrecos = preco1 + preco2 + preco3
+# aplicado o desconto
+contaFinal = somaPrecos * 0.9
+# mostrar resultado de valor a pagar
+print("O valor a pagar é de: ", contaFinal, "€")
