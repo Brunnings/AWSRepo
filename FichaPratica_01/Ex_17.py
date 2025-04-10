@@ -6,3 +6,8 @@ if salMed <= 2000:
 elif 2000 < salMed <= 4000:
     credito = salMed * 0.20
 elif 4000 < salMed <= 6000:
+    credito = salMed * 0.30
+else:
+    credito = salMed * 0.40
+#imprimir crédito
+print("O crédito é de: ", credito)
