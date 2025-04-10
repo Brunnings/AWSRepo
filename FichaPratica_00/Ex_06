@@ -1,0 +1,15 @@
+#pedir ao usuário dois números inteiros
+valor1 = int(input("Escreva um número inteiro: "))
+valor2 = int(input("Escreva outro número inteiro: "))
+#no caso da variável extra deve ser atribuída um valor, neste caso o valor 1
+#tempvar = valor1
+#valor1 = valor2
+#valor2 = tempvar
+#troca das variáveis
+valor1, valor2 = valor2, valor1
+#valor1 = valor2 + valor1
+#valor2 = valor1 - valor2
+#valor1 = valor1 - valor2
+#mostrar valor das variàveis
+print("O primeiro número foi:", valor1)
+print("O segundo foi:", valor2)
