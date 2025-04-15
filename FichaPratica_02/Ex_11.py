@@ -3,11 +3,12 @@ primQuar = 0
 segunQuar = 0
 terQuar = 0
 quatQuar = 0
-num = 101
 #loop para input de numeros e contagem de quantos estão intervalo
-while num >= 0:
+while True:
     num = int(input("Digite um número: "))
-    if num <= 25:
+    if num < 0:
+        break
+    elif num <= 25:
         primQuar += 1
     elif 25 < num <= 50:
         segunQuar += 1

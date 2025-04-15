@@ -2,5 +2,6 @@
 num = 2
 #loop e print
 while num <= 400:
-    print(num)
-    num += 2
+    if num % 2 == 0:
+        print(num)
+    num += 1
