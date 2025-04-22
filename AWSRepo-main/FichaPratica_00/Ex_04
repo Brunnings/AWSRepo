@@ -1,6 +1,0 @@
-# valor raio
-raio = float(input("O raio da circunferência é: "))
-# resultado da variável
-area = 3.14159 * (raio ** 2)
-# '' consola
-print("A área da circunferência é: ", area)

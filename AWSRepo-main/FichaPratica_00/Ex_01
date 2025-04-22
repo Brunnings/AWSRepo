@@ -1,9 +1,0 @@
-# Pedir ao usuário dois números inteiros
-numero1 = int(input("Digite o primeiro número: "))
-numero2 = int(input("Digite o segundo número: "))
-
-# Guardar o resultado numa variável
-resultadoSoma = numero1 + numero2
-
-# Imprimir o resultado na consola
-print("Soma de numero1 e numero2 é:", resultadoSoma)
